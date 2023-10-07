@@ -18,7 +18,7 @@ const Game = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [correctOption, setCorrectOption] = useState(null);
   const [optionBtn, setOptionBtn] = useState(false);
-  const [progress, setProgress] = useState(0);
+  // const [progress, setProgress] = useState(0);
   const [nextBtn, setNextBtn] = useState(true);
   const [playing, setPlaying] = useState(true);
 
@@ -35,13 +35,13 @@ const Game = () => {
   }, [currentQuestionIndex, questions]);
 
   // Below useEffect sets the progress in progress bar everytime screen loads i.e. at question change
-  useEffect(() => {
-    if (questions.length > 0) {
-      const currentProgress =
-        ((currentQuestionIndex + 1) / questions.length) * 100;
-      setProgress(currentProgress);
-    }
-  }, [currentQuestionIndex, questions]);
+  // useEffect(() => {
+  //   if (questions.length > 0) {
+  //     const currentProgress =
+  //       ((currentQuestionIndex + 1) / questions.length) * 100;
+  //     // setProgress(currentProgress);
+  //   }
+  // }, [currentQuestionIndex, questions]);
 
   // Below Function Shuffle the Options
   const shuffleOptions = () => {
@@ -147,6 +147,7 @@ const Game = () => {
       if (result.isConfirmed) {
         setPlaying(true);
       } else if (result.isDenied) {
+        navigate("/")
       }
     });
   };
@@ -170,9 +171,9 @@ const Game = () => {
             strokeLinecap={"round"}
             size={50}
             strokeWidth={0}
-            // isPlaying={playing}
-            isPlaying={false}
-            duration={60}
+            isPlaying={playing}
+            // isPlaying={false}
+            duration={50}
             trailColor="#502F1A"
             colors="#E8852A"
             onComplete={() => timerComplete()}

@@ -240,7 +240,13 @@
   border: 3px solid var(--primary-light-blue);
   outline: none;
   border-radius: 1rem;
+  cursor: pointer;
+  transition: var(--transition-btn);
   /* background: transparent; */
+}
+
+.game .game-nav .pause-btn:hover {
+  transform: var(--transform-btn);
 }
 
 .game .game-nav .pause-btn i {
