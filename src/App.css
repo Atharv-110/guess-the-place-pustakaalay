@@ -95,6 +95,7 @@
   width: 60%;
   height: 500px;
   background: var(--primary-off-white);
+  border: 5px solid #73BC7F;
   padding: 1rem 2rem;
   border-radius: 30px;
   box-shadow: var(--box-shadow);
@@ -135,7 +136,8 @@
   cursor: pointer;
   color: #fff;
   font-size: 1.2rem;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
   transition: var(--transition-btn);
 }
 
@@ -148,6 +150,75 @@
 }
 
 /* Instruction Page CSS Ends */
+
+/* Level Page CSS Starts */
+
+.level {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.level-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background: var(--primary-off-white);
+  padding: 1.8rem;
+  border: 5px solid #73BC7F;
+  border-radius: 50px;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
+}
+
+.level-box .level-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  color: var(--primary-dark-blue);
+  letter-spacing: 2px;
+  -webkit-text-stroke: 0.5px var(--primary-light-blue);
+  margin-bottom: 1.9rem;
+}
+
+.level .level-box .radio-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.level .level-box .radio-item label {
+  font-size: 2rem;
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 3px;
+  color: transparent;
+  /* text-shadow: 0.5px 0.5px 1px gray; */
+  -webkit-text-stroke: 2px var(--primary-dark-blue);
+}
+
+.level .level-box .radio-item input {
+  appearance: none;
+  border: 3px solid var(--primary-dark-blue);
+  background-color: var(--primary-dark-blue);
+  width: 40px;
+  height: 40px;
+  border-radius: 17px;
+}
+
+.level .level-box .radio-item input:checked {
+  background: var(--primary-light-blue);
+}
+
+/* Level Page CSS Ends */
+
+
+
+
+
 
 /* Tablet Styles Start */
 

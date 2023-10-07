@@ -36,7 +36,7 @@ export default function Instruction() {
         </div>
 
         <button onClick={() => navigate("/level")} className="instruction-btn">
-          Start
+          Next
         </button>
       </div>
     </div>
