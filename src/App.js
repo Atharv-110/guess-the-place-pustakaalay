@@ -3,6 +3,7 @@ import "./App.css";
 
 // import pages
 import Menu from "./components/Menu";
+import Instruction from "./components/Instruction";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Menu />} />
-          {/* <Route exact path="/instruction" element={<Instruction />} />
-          <Route exact path="/level" element={<Level />} />
+          <Route exact path="/instruction" element={<Instruction />} />
+          {/* <Route exact path="/level" element={<Level />} />
           <Route exact path="/game" element={<Game />} />
           <Route exact path="/summary" element={<Summary />} /> */}
         </Routes>

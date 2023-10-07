@@ -4,14 +4,13 @@
   --primary-dark-blue: #002952;
   --primary-light-blue: #9cf;
   --btn-blue: #28acfe;
+  --primary-off-white: #fffbde;
   /* --primary-yellow: #efdd4b;
   --primary-white: #fff;
-  --primary-pink: #f000f5;
-  --box-shadow: -5px -28px 100px 0px #c7e8ca inset,
-    0px -13px 10px 0px #5d9c59 inset,
-    20px 16px 10px 0px rgba(255, 249, 249, 0.3) inset,
-    11px 15px 15px 0px rgba(0, 0, 0, 0.25);
-   */
+  --primary-pink: #f000f5; */
+  --box-shadow: 0px 22px 90px 46px rgba(0, 0, 0, 0.25),
+    -17px -44px 69px 0px rgba(0, 0, 0, 0.25) inset,
+    73px 90px 56px 0px rgba(255, 237, 140, 0.25) inset;
   --transform-btn: scale(0.9);
   --transition-btn: 500ms all ease-in-out;
 }
@@ -52,6 +51,7 @@
   -webkit-text-stroke: 1px var(--primary-light-blue);
   background: var(--primary-dark-blue);
   padding: 0.5rem 1rem;
+  border: 5px dashed var(--primary-light-blue);
   border-radius: 1rem;
 }
 
@@ -67,9 +67,9 @@
   color: var(--primary-light-blue);
   background: var(--primary-dark-blue);
   padding: 1rem 1.5rem;
-  font-size: 4rem;
-  border: 2px solid var(--primary-light-blue);
-  border-radius: 0.5rem;
+  font-size: 3.5rem;
+  border: 3px dashed var(--primary-light-blue);
+  border-radius: 1rem;
   transition: var(--transition-btn);
 }
 
@@ -78,6 +78,76 @@
 }
 
 /* Menu Page CSS End*/
+
+/* Instruction Page CSS Starts */
+
+.instruction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instruction-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  background: var(--primary-off-white);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  box-shadow: var(--box-shadow);
+}
+
+.instruction-heading {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  -webkit-text-stroke: 1px var(--primary-light-blue);
+  color: var(--primary-dark-blue);
+}
+
+.instruction-text-item {
+  width: 80%;
+  display: flex;
+  margin: 25px auto;
+}
+
+.instruction-text-item img {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.instruction-text-item p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.instruction-btn {
+  width: 150px;
+  background: var(--primary-dark-blue);
+  padding: 12px;
+  border: 3px dashed var(--primary-light-blue);
+  outline: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: var(--transition-btn);
+}
+
+.instruction-btn img {
+  width: 100%;
+}
+
+.instruction-btn:hover {
+  transform: var(--transform-btn);
+}
+
+/* Instruction Page CSS Ends */
 
 /* Tablet Styles Start */
 
