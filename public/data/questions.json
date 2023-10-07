@@ -1,0 +1,32 @@
+[
+    {
+      "question": "/data/images/tajmahal.jpg",
+      "options": ["Taj Mahal, Agra", "London", "Berlin", "Madrid"],
+      "correctAnswer": "Taj Mahal, Agra"
+    },
+    {
+      "question": "/data/images/goldentemple.jpg",
+      "options": ["Golden Temple, Amritsar", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Golden Temple, Amritsar"
+    },
+    {
+        "question": "ABCD",
+        "options": ["A", "B", "C", "D"],
+        "correctAnswer": "A"
+    },
+    {
+        "question": "PQRS",
+        "options": ["P", "Q", "R", "S"],
+        "correctAnswer": "P"
+    },
+    {
+        "question": "UVWX",
+        "options": ["U", "V", "W", "X"],
+        "correctAnswer": "U"
+    },
+    {
+        "question": "Option1",
+        "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+        "correctAnswer": "Option 1"
+    }
+]

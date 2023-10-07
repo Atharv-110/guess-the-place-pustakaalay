@@ -1,0 +1,12 @@
+[
+    {
+      "question": "/data/images/tajmahal.jpg",
+      "options": ["Taj Mahal, Agra", "London", "Berlin", "Madrid"],
+      "correctAnswer": "Taj Mahal, Agra"
+    },
+    {
+      "question": "/data/images/goldentemple.jpg",
+      "options": ["Golden Temple, Amritsar", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Golden Temple, Amritsar"
+    }
+]

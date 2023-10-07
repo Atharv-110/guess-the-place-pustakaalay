@@ -95,7 +95,7 @@
   width: 60%;
   height: 500px;
   background: var(--primary-off-white);
-  border: 5px solid #73BC7F;
+  border: 5px solid #73bc7f;
   padding: 1rem 2rem;
   border-radius: 30px;
   box-shadow: var(--box-shadow);
@@ -126,8 +126,9 @@
   font-weight: 700;
 }
 
-.instruction-btn {
-  width: 150px;
+.instruction-btn,
+.instruction-btn-blr {
+  width: 200px;
   background: var(--primary-dark-blue);
   padding: 12px;
   border: 3px dashed var(--primary-light-blue);
@@ -135,14 +136,14 @@
   border-radius: 1rem;
   cursor: pointer;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   letter-spacing: 0.5px;
   font-weight: 500;
   transition: var(--transition-btn);
 }
 
-.instruction-btn img {
-  width: 100%;
+.instruction-btn-blr {
+  opacity: 0.2;
 }
 
 .instruction-btn:hover {
@@ -168,7 +169,7 @@
   height: 350px;
   background: var(--primary-off-white);
   padding: 1.8rem;
-  border: 5px solid #73BC7F;
+  border: 5px solid #73bc7f;
   border-radius: 50px;
   box-shadow: var(--box-shadow);
   margin-bottom: 2rem;
@@ -215,10 +216,194 @@
 
 /* Level Page CSS Ends */
 
+/* Game CSS Starts */
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+.game-nav {
+  width: 100%;
+  padding: 2rem 5rem 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: rebeccapurple; */
+  /* color: var(--primary-brown); */
+}
 
+.game .game-nav .pause-btn {
+  padding: 0.5rem 1rem;
+  background: var(--primary-dark-blue);
+  border: 3px solid var(--primary-light-blue);
+  outline: none;
+  border-radius: 1rem;
+  /* background: transparent; */
+}
 
+.game .game-nav .pause-btn i {
+  font-size: 3rem;
+  color: var(--primary-light-blue);
+}
 
+.game-title {
+  font-family: "Luckiest Guy", cursive;
+  letter-spacing: 2px;
+  text-shadow: 0px 34px 20px rgba(0, 0, 0, 0.25);
+  font-size: 4rem;
+  -webkit-text-stroke: 1px var(--primary-light-blue);
+  color: var(--primary-dark-blue);
+}
+
+.game-timer {
+  padding: 0.5rem;
+  border: 3px solid var(--primary-light-blue);
+  border-radius: 1rem;
+  background: var(--primary-dark-blue);
+}
+
+.game-timer-count {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--primary-light-blue);
+}
+
+/* .game-progress {
+  width: 70%;
+  margin: 1.5rem auto 0;
+}
+
+.progress-bar {
+  width: 100%;
+  background: var(--primary-dark-blue);
+  height: 12px;
+  border-radius: 6px;
+}
+
+.progress-level {
+  width: 0%;
+  height: 100%;
+  background: var(--primary-green);
+  border-radius: inherit;
+}
+
+.progress-count p {
+  color: var(--dark-peach);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 8px 0  0 8px;
+}
+
+.progress-count p span {
+  color: var(--primary-green);
+  font-size: 1.8rem;
+} */
+
+.game-main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 2rem; */
+}
+
+.game-question {
+  width: 350px;
+  height: 250px;
+  padding: 1.5rem;
+  background: var(--primary-off-white);
+  box-shadow: var(--box-shadow);
+  border-radius: 1rem;
+  border: 4px solid #73bc7f;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-question img {
+  width: 100%;
+}
+
+.game-option {
+  width: 85%;
+  padding: 3rem 0rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px 30px;
+  transition: var(--transition-btn);
+}
+
+.game-option-btn,
+.correct-option-btn,
+.wrong-option-btn {
+  cursor: pointer;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  outline: none;
+  text-align: left;
+  box-shadow: 0px -13px 10px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 29px 17px 0px rgba(255, 236, 137, 0.25) inset;
+}
+
+.game-option-btn {
+  background: var(--primary-off-white);
+  border: 3px solid #73bc7f;
+  color: #502f1a;
+}
+
+.game-option-btn:hover {
+  transform: scale(0.99);
+}
+
+.correct-option-btn {
+  background: #9b8bff;
+  color: var(--primary-off-white);
+}
+
+.wrong-option-btn {
+  background: rgb(247, 100, 100);
+  color: #fff;
+}
+
+.correct-option-btn:hover,
+.wrong-option-btn:hover {
+  transform: none;
+}
+
+.gradient-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.new-game-btn,
+.next-btn {
+  padding: 0.8rem 1.2rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: linear-gradient(317deg, #500886 0%, #b40f9d 100%);
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.next-btn-blr {
+}
+
+.next-btn-blr:hover {
+  transform: none;
+}
+
+/* Game CSS Ends */
 
 /* Tablet Styles Start */
 
