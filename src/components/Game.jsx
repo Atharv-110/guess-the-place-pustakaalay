@@ -171,8 +171,8 @@ const Game = () => {
             strokeLinecap={"round"}
             size={50}
             strokeWidth={0}
-            // isPlaying={playing}
-            isPlaying={false}
+            isPlaying={playing}
+            // isPlaying={false}
             duration={50}
             trailColor="#502F1A"
             colors="#E8852A"
