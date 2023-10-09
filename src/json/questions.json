@@ -8,5 +8,70 @@
       "question": "/data/images/goldentemple.jpg",
       "options": ["Golden Temple, Amritsar", "Picasso", "Leonardo da Vinci", "Rembrandt"],
       "correctAnswer": "Golden Temple, Amritsar"
+    },
+    {
+      "question": "/data/images/agrafort.jpg",
+      "options": ["Agra Fort, Agra", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Agra Fort, Agra"
+    },
+    {
+      "question": "/data/images/amerfort.jpg",
+      "options": ["Amer Fort, Amer", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Amer Fort, Amer"
+    },
+    {
+      "question": "/data/images/citypalace.jpg",
+      "options": ["City Palace, Udaipur", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "City Palace, Udaipur"
+    },
+    {
+      "question": "/data/images/fatehpursikrifort.jpg",
+      "options": ["Fatehpur Sikri Fort", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Fatehpur Sikri Fort"
+    },
+    {
+      "question": "/data/images/gatewayofindia.jpg",
+      "options": ["Gateway of India, Mumbai", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Gateway of India, Mumbai"
+    },
+    {
+      "question": "/data/images/indiagate.jpg",
+      "options": ["India Gate, Delhi", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "India Gate, Delhi"
+    },
+    {
+      "question": "/data/images/hawamahal.jpg",
+      "options": ["Hawa Mahal, Jaipur", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Hawa Mahal, Jaipur"
+    },
+    {
+      "question": "/data/images/jamamasjid.jpg",
+      "options": ["Jama Masjid, Agra", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Jama Masjid, Agra"
+    },
+    {
+      "question": "/data/images/lotustemple.jpg",
+      "options": ["Lotus Temple, Delhi", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Lotus Temple, Delhi"
+    },
+    {
+      "question": "/data/images/mysorepalace.jpg",
+      "options": ["Mysore Palace", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Mysore Palace"
+    },
+    {
+      "question": "/data/images/qutubminar.jpg",
+      "options": ["Qutub Minar, Delhi", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Qutub Minar, Delhi"
+    },
+    {
+      "question": "/data/images/redfort.jpg",
+      "options": ["Red Fort, Delhi", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Red Fort, Delhi"
+    },
+    {
+      "question": "/data/images/sanchistupa.jpg",
+      "options": ["Sanchi Stupa, MP", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+      "correctAnswer": "Sanchi Stupa, MP"
     }
 ]
